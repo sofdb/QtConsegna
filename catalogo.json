@@ -1,0 +1,119 @@
+[
+    {
+        "color": "RossoCiliegia",
+        "image": "./images/RossoCiliegia.jpg",
+        "name": "SmaltoRossoCiliegia",
+        "polimerization_time": 60,
+        "size": 15,
+        "type": "SmaltoSemip"
+    },
+    {
+        "color": "BluNotte",
+        "image": "./images/BluNotte.jpg",
+        "name": "SmaltoBluNotte",
+        "polimerization_time": 60,
+        "size": 15,
+        "type": "SmaltoSemip"
+    },
+    {
+        "color": "ViolaLavanda",
+        "image": "./images/ViolaLavanda.jpg",
+        "name": "SmaltoViolaLavanda",
+        "polimerization_time": 60,
+        "size": 15,
+        "type": "SmaltoSemip"
+    },
+    {
+        "color": "RosaConfetto",
+        "image": "./images/RosaConfetto.jpg",
+        "name": "SmaltoRosaConfetto",
+        "polimerization_time": 60,
+        "size": 15,
+        "type": "SmaltoSemip"
+    },
+    {
+        "color": "BiancoGhiaccio",
+        "image": "./images/BiancoGhiaccio.jpg",
+        "name": "SmaltoBiancoGhiaccio",
+        "polimerization_time": 60,
+        "size": 15,
+        "type": "SmaltoSemip"
+    },
+    {
+        "elasticity": "Media",
+        "finish": "Lucido",
+        "grip": "Media",
+        "image": "./images/TopBase.jpg",
+        "name": "TopBaseLucido",
+        "polimerization_time": 60,
+        "size": 15,
+        "tbtype": "Bonder",
+        "type": "TopBase"
+    },
+    {
+        "elasticity": "Alta",
+        "finish": "Opaco",
+        "grip": "Alta",
+        "image": "./images/TopBase.jpg",
+        "name": "TopBaseOpaco",
+        "polimerization_time": 60,
+        "size": 15,
+        "tbtype": "Bonder",
+        "type": "TopBase"
+    },
+    {
+        "elasticity": "Bassa",
+        "finish": "Lucido",
+        "grip": "Bassa",
+        "image": "./images/TopBase.jpg",
+        "name": "TopBaseNaturale",
+        "polimerization_time": 60,
+        "size": 15,
+        "tbtype": "Bonder",
+        "type": "TopBase"
+    },
+    {
+        "coverage": "Bassa",
+        "durability": 3,
+        "image": "./images/Gel1.jpg",
+        "name": "GelCostruttore1",
+        "polimerization_time": 60,
+        "size": 15,
+        "stapling_time": 60,
+        "type": "GelCostruttore",
+        "viscosity": "Bassa"
+    },
+    {
+        "coverage": "Alta",
+        "durability": 5,
+        "image": "./images/Gel2.jpg",
+        "name": "GelCostruttore2",
+        "polimerization_time": 60,
+        "size": 15,
+        "stapling_time": 60,
+        "type": "GelCostruttore",
+        "viscosity": "Alta"
+    },
+    {
+        "coverage": "Media",
+        "durability": 4,
+        "image": "./images/Gel3.jpg",
+        "name": "GelCostruttore3",
+        "polimerization_time": 60,
+        "size": 15,
+        "stapling_time": 60,
+        "type": "GelCostruttore",
+        "viscosity": "Media"
+    },
+    {
+        "coverage": "Alta",
+        "durability": 4,
+        "image": "./images/Gel4.jpg",
+        "name": "GelCostruttore4",
+        "polimerization_time": 60,
+        "size": 15,
+        "stapling_time": 60,
+        "type": "GelCostruttore",
+        "viscosity": "Media"
+    }
+]
