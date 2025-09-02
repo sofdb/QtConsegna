@@ -12,11 +12,11 @@ QWidget* NailsProductInfoVisitor::getWidget(){
     return widget;
 }
 
-void NailsProductInfoVisitor::visitSmaltoSemip(const SmaltoSemip& prod){
+void NailsProductInfoVisitor::visit(const SmaltoSemip& prod){
     widget = new QLabel("Colore: " + QString::fromStdString(prod.SemicolorToString(prod.getColor())));
 }
 
-void NailsProductInfoVisitor::visitTopBase(const TopBase& prod){
+void NailsProductInfoVisitor::visit(const TopBase& prod){
     QWidget* w = new QWidget;
     QVBoxLayout* layout = new QVBoxLayout(w);
     layout->setAlignment(Qt::AlignLeft | Qt::AlignTop);
@@ -29,7 +29,7 @@ void NailsProductInfoVisitor::visitTopBase(const TopBase& prod){
     widget = w;
 }
 
-void NailsProductInfoVisitor::visitGelCostruttore(const GelCostruttore& prod){
+void NailsProductInfoVisitor::visit(const GelCostruttore& prod){
     QWidget* w = new QWidget;
     QVBoxLayout* layout = new QVBoxLayout(w);
     layout->setAlignment(Qt::AlignLeft | Qt::AlignTop);
