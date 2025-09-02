@@ -8,7 +8,7 @@ QJsonObject JsonVisitor::getJsonProduct() const{
     return jsonProduct;
 }
 
-void JsonVisitor::visitSmaltoSemip(const SmaltoSemip& prod) {
+void JsonVisitor::visit(const SmaltoSemip& prod) {
     QJsonObject json;
     json["type"] = "SmaltoSemip";
     json["name"] = QString::fromStdString(prod.getName());
@@ -19,7 +19,7 @@ void JsonVisitor::visitSmaltoSemip(const SmaltoSemip& prod) {
     jsonProduct = json;
 }
 
-void JsonVisitor::visitTopBase(const TopBase& prod) {
+void JsonVisitor::visit(const TopBase& prod) {
     QJsonObject json;
     json["type"] = "TopBase";
     json["name"] = QString::fromStdString(prod.getName());
@@ -33,7 +33,7 @@ void JsonVisitor::visitTopBase(const TopBase& prod) {
     jsonProduct = json;
 }
 
-void JsonVisitor::visitGelCostruttore(const GelCostruttore& prod) {
+void JsonVisitor::visit(const GelCostruttore& prod) {
     QJsonObject json;
     json["type"] = "GelCostruttore";
     json["name"] = QString::fromStdString(prod.getName());

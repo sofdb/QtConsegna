@@ -33,6 +33,6 @@ bool GelCostruttore::operator==(const NailsProduct& nProd) const  {
 }
 
 void GelCostruttore::accept(NailsProductVisitor& visitor) const {
-    visitor.visitGelCostruttore(*this);
+    visitor.visit(*this);
 }
 

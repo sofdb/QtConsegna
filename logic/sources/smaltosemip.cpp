@@ -17,7 +17,7 @@ bool SmaltoSemip::operator==(const NailsProduct& nProd) const  {
 }
 
 void SmaltoSemip::accept(NailsProductVisitor& visitor) const {
-    visitor.visitSmaltoSemip(*this);
+    visitor.visit(*this);
 }
 
 string SmaltoSemip::SemicolorToString(const SemiColor& semiColor) {

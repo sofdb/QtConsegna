@@ -12,9 +12,9 @@ private:
 
 public:
     QJsonObject getJsonProduct() const;
-    void visitSmaltoSemip(const SmaltoSemip& prod) override;
-    void visitTopBase(const TopBase& prod) override;
-    void visitGelCostruttore(const GelCostruttore& prod) override;
+    void visit(const SmaltoSemip& prod) override;
+    void visit(const TopBase& prod) override;
+    void visit(const GelCostruttore& prod) override;
 };
 
 #endif // JSONVISITOR_H

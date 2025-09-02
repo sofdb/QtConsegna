@@ -33,7 +33,7 @@ bool TopBase::operator==(const NailsProduct& nProd) const  {
 }
 
 void TopBase::accept(NailsProductVisitor& visitor) const {
-    visitor.visitTopBase(*this);
+    visitor.visit(*this);
 }
 
 
