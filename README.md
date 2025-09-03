@@ -3,7 +3,7 @@ Proggetto: applicazione per la gestione di un catalogo di prodotti per la Nail A
 La cartella principale `QtNailsProjectConsegna` contiene:
 - `relazione\`  
   - `RelazioneQt.pdf` 
-  - `QtNailsUML.jpg` — diagramma UML del modello logico del progetto
+  - `QtNailsUML.jpg` 
 
 - `QtProject_src\`  
   - Codice sorgente completo suddiviso in cartelle `logic\`, `UI\`, `Json\`
