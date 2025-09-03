@@ -197,13 +197,12 @@ void CatalogViewer::gestisciModifica() {
     if (index < 0 || index >= prodottiFiltrati.size()) return;
 
     NailsProduct* prodotto = prodottiFiltrati[index];
-    ModificaDialog dialog(prodotto, false, this);
+    ModificaDialog dialog(prodotto, false, this); //false => modifica
 
     if (dialog.exec() == QDialog::Accepted) {
         JsonHandler::saveCatalogToFile(catalogo, "catalogo.json");
         refreshCatalog();
 
-        // Verifica che il prodotto modificato esista ancora
         int newIndex = listaProdotti->currentRow();
         if (newIndex >= 0 && newIndex < prodottiFiltrati.size()) {
             NailsProduct* nuovoProdotto = prodottiFiltrati[newIndex];
@@ -217,7 +216,7 @@ void CatalogViewer::gestisciModifica() {
 
 
 void CatalogViewer::gestisciInserimento() {
-    ModificaDialog dialog(nullptr, true, this); // true = inserimento
+    ModificaDialog dialog(nullptr, true, this); // true => inserimento
     if (dialog.exec() == QDialog::Accepted) {
         NailsProduct* nuovo = dialog.getProdotto();
         if (nuovo) {
@@ -301,4 +300,3 @@ void CatalogViewer::aggiornaDettagli(NailsProduct* prodotto) {
     productWidget = new ProductWidget(prodotto, this);
     layout->addWidget(productWidget);
 }
-
