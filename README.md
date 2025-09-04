@@ -8,7 +8,8 @@ La cartella principale `QtNailsProjectConsegna` contiene:
 - `QtProject_src\`  
   - Codice sorgente completo suddiviso in cartelle `logic\`, `UI\`, `Json\`
   - E' presente anche una cartella `images\` con immagini presenti nel file `catalogo.json`
-  - File `catalogo.json` con prodotti di esempio
+  - File `catalogo.json` con prodotti di esempio (per testare i messaggi di "catalogo vuoto" e "creazione catalogo", 
+    basterà spostarlo fuori dalla cartella di compilazione)
   - File `QtNailsProject.pro` per la compilazione 
   - File `resources.qrc` che include il foglio di stile `style.qss` (presente nella cartella `UI\`)
 

@@ -19,7 +19,6 @@ int main(int argc, char *argv[]) {
         qDebug() << "Visualizzazione finestra...";
         viewer.show();
 
-        qDebug() << "Avvio loop Qt...";
         return app.exec();
     } catch (const std::exception& e) {
         qDebug() << "Eccezione catturata:" << e.what();

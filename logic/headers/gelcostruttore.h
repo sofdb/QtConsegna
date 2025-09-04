@@ -10,7 +10,7 @@ class GelCostruttore : public NailsProduct
 private:
     Scala3 coverage;
     Scala3 viscosity;
-    unsigned int stapling_time;//in sec
+    unsigned int stapling_time; //in sec
     unsigned int durability; //in settimane
 
 public:
